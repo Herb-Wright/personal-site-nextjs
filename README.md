@@ -1,3 +1,15 @@
+# Herbie's Personal Site
+
+This repo contains my personal website's source code.
+
+The website was made with the following stack:
+- Next.js
+- React.js
+- Sass (for CSS)
+- ...
+
+------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

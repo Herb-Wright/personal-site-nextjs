@@ -1,0 +1,24 @@
+@import '../colors';
+
+.backdrop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-end;
+	overflow: clip;
+}
+
+.sidebar {
+	height: 100vh;
+	background: $color-bg-secondary;
+}
+
+.linksWrapper {
+	padding: 3rem 2rem; 
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}

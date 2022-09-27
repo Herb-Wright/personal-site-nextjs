@@ -1,0 +1,13 @@
+@import '../constants';
+
+@media not screen and (max-width: $screen-breakpoint) {
+	.mobileDiv {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: $screen-breakpoint) {
+  .desktopDiv {
+    display: none
+  }
+}
