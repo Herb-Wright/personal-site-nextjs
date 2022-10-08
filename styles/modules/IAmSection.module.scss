@@ -1,0 +1,14 @@
+
+
+.centered {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.twoCol {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	min-width: 600px;
+}

@@ -1,0 +1,60 @@
+@import '../colors';
+
+
+.itemWrapper {
+	width: 100%;
+	margin: 0 0 0.5rem;
+}
+
+.itemTitleSection {
+	background-color: $color-bg-secondary-light;
+	width: 100%;
+	font-size: 2rem;
+	padding: 0 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.iconButtonWrapper {
+	height: 0;
+	width: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 1rem;
+}
+
+.contentWrapper {
+	animation: all 0.5s ease-in;
+	padding: 0 0.5rem;
+	overflow: clip;
+	height: fit-content;
+	font-size: 1.25rem;
+}
+
+.accordianWrapper {
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.desktopWrapper {
+	display: grid;
+	grid-template-columns: 350px 1px 1fr;
+	gap: 2rem;
+}
+
+.divider {
+	background-color: $color-bg-secondary-light;
+}
+
+.accordianLeft {
+	padding: 1rem;
+	position: sticky;
+	top: 4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	height: fit-content;
+	gap: 0.5rem;
+}

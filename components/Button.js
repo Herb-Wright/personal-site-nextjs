@@ -1,7 +1,8 @@
 import styles from '../styles/modules/Button.module.scss';
 import '@fontsource/open-sans/300.css'
+import { forwardRef } from 'react';
 
-const Button = ({
+const Button = forwardRef(({
 	variant = 'normal',
 	children,
 	className,
@@ -9,9 +10,10 @@ const Button = ({
 	color = 'primary',
 	onClick,
 	...props
-}) => {
+}, ref) => {
 	return (
 		<button
+			ref={ref}
 			className={
 				styles[size] + ' '
 				+ styles[color] + ' '
@@ -25,6 +27,6 @@ const Button = ({
 			{children}
 		</button>
 	);
-}
+});
 
 export default Button;

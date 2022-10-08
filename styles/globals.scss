@@ -7,6 +7,7 @@ body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	scroll-behavior: smooth;
 }
 
 a {
@@ -14,8 +15,50 @@ a {
 	text-decoration: none;
 }
 
+h1 {
+	font-size: 4rem;
+	font-weight: 300;
+	margin: 1.25rem 0
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 1.75rem;
+	margin: 0.5rem 0;
+	font-weight: 300;
+}
+
+ul {
+	font-size: 1.5rem;
+}
+
+li {
+	margin: 1rem 0;
+}
+
+b {
+	font-weight: 700;
+}
+
 * {
 	box-sizing: border-box;
+}
+
+
+
+.title {
+	background-color: $color-bg-secondary;
+	font-size: 6rem;
+	padding: 0 0.5rem;
+}
+
+.titleBlock {
+	width: min(calc($max-content-width - 400px), calc(100vw - 2rem));
+	display: flex;
 }
 
 @media (prefers-color-scheme: dark) {

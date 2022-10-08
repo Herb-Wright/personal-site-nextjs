@@ -38,6 +38,7 @@ const Navbar = ({ links }) => {
 				>
 					{links.map(({ label, path }) => (
 						<Button
+							key={path}
 							variant='text'
 							className={router.route === path ? styles.underline : ''}
 							onClick={() => router.push(path)}

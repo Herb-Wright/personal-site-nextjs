@@ -28,6 +28,7 @@ const Sidebar = ({ isOpen, links, onClose = () => { } }) => {
 								<div>
 									<Button
 										variant='text'
+										key='path'
 										size='lg'
 										className={router.route === path ? styles.underline : ''}
 										onClick={() => router.push(path)}

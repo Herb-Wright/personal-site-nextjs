@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar';
 import '../styles/globals.scss';
 import '@fontsource/open-sans/300.css'
 import '@fontsource/open-sans/400.css'
+import '@fontsource/open-sans/600.css'
 
 function MyApp({ Component, pageProps }) {
 	return (

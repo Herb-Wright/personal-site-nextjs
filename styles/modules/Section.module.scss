@@ -1,0 +1,111 @@
+@import '../colors';
+@import '../constants';
+
+.primary {
+	background: $color-bg;
+}
+
+.secondary {
+	background: $color-bg-secondary;
+}
+
+.alt {
+	background: $color-bg-alt;
+}
+
+
+.section {
+	padding: 1rem;
+	min-height: 70vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: clip;
+}
+
+.imgContainer {
+	object-fit: cover;
+	height: 100%;
+	width: 40vw;
+	overflow: hidden;
+}
+
+.bottomImage,
+.sideImageRight,
+.sideImageLeft {
+	object-fit: cover;
+	z-index: 0;
+	filter: brightness(0.8)
+}
+
+.sideImageRight,
+.sideImageLeft {
+	width: 100%;
+	height: calc(100% + 20vh);
+}
+
+.sideImageLeft {
+	clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.sideImageRight {
+	clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+}
+
+.bottomImage {
+	width: 100vw;
+	height: calc(140%);
+}
+
+.contentWrapper {
+	width: calc(60vw - ((100vw - $max-content-width) / 2));
+	height: 100%;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+}
+
+
+.imgSection {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.bgImage {
+	filter: brightness(0.3);
+	position: absolute;
+	width: 100%;
+	height: calc(100% + 60vh);
+	object-fit: cover;
+	z-index: -1;
+}
+
+.parallaxSection {
+	position: relative;
+}
+
+@media screen and (max-width: $screen-breakpoint) {
+	.imgSection {
+		flex-direction: column-reverse;
+	}
+}
+
+.centered {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: $max-content-width;
+}
