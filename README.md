@@ -9,6 +9,9 @@ The website was made with the following stack:
 - Sass (for CSS)
 
 and hosted on mogenius
+
+Dockerfile adapted from https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile
+
 ------------
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
