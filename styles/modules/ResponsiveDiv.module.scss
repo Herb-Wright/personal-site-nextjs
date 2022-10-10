@@ -2,12 +2,12 @@
 
 @media not screen and (max-width: $screen-breakpoint) {
 	.mobileDiv {
-		display: none;
+		display: none !important;
 	}
 }
 
 @media only screen and (max-width: $screen-breakpoint) {
   .desktopDiv {
-    display: none
+    display: none !important;
   }
 }
