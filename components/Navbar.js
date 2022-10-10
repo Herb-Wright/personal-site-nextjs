@@ -15,9 +15,11 @@ const Navbar = ({ links }) => {
 	return (
 		<div className={styles.navbarWrapper}>
 			<div className={styles.navbarContentWrapper}>
-				<div className={styles.logoWrapper}>
-					Herbert Wright
-				</div>
+				<Link href='/'>
+					<div className={styles.logoWrapper}>
+						Herbert Wright
+					</div>
+				</Link>
 				<ResponsiveDiv
 					className={styles.linksWrapper}
 					mobile={

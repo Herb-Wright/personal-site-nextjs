@@ -10,14 +10,6 @@
 
 
 
-.med {
-	font-size: 1.5rem;
-	height: 2.5rem;
-	min-width: 2.5rem;
-}
-
-
-
 .primary {
 	background: $color-primary;
 	&:active,
@@ -55,7 +47,6 @@
 
 .button {
 	padding: 0 1rem;
-	gap: 1rem;
 }
 
 
@@ -67,7 +58,15 @@
 	gap: 0.5rem;
 }
 
+.med {
+	font-size: 1.5rem;
+	height: 2.5rem;
+	min-width: 2.5rem;
+	gap: 0.5rem;
+}
+
 .lg {
+	gap: 1rem;
 	font-size: 2.5rem;
 	height: 4rem;
 	min-width: 4rem;

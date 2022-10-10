@@ -34,7 +34,12 @@ const Section = ({ bg = 'primary', children, img, dir = 'left' }) => {
 		return (
 			<div
 				ref={scrollRef}
-				className={styles.section + ' ' + styles.imgSection + ' ' + (dir === 'right' && styles.reverse)}
+				className={
+					styles.section + ' '
+					+ styles.imgSection + ' '
+					+ (dir === 'right' && styles.reverse) + ' '
+					+ styles[bg]
+				}
 			>
 				<motion.div
 					className={styles.contentWrapper + ' ' + styles.centered}
@@ -45,7 +50,7 @@ const Section = ({ bg = 'primary', children, img, dir = 'left' }) => {
 					{children}
 				</motion.div>
 				<div
-					className={styles.imgContainer}
+					className={styles.imgContainer + ' ' + (dir === 'left' ? styles.sideImageLeftContainer : styles.sideImageRightContainer)}
 				>
 					<motion.img
 						src={img}

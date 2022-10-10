@@ -1,0 +1,28 @@
+@import '../constants';
+@import '../colors';
+
+.carouselWrapper {
+	height: calc(min(20rem, 90vw) + 0.5rem);
+	padding: 0 1rem;
+	width: 100%;
+	max-width: min( 90vw, calc($max-content-width - 2rem));
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	cursor: grab;
+	display: flex;
+	gap: 2rem;
+}
+
+.item {
+	background-color: $color-bg-secondary-light;
+	border-radius: 1rem;
+	min-width: min(20rem, 90vw);
+	width: min(20rem, 90vw);
+	height: min(20rem, 90vw);
+	padding: 1rem;
+}
+
+.scrollSnap {
+	scroll-snap-type: x proximity;
+	scrollbar-width: none;
+}

@@ -15,6 +15,10 @@ a {
 	text-decoration: none;
 }
 
+p {
+	font-size: 1rem;
+}
+
 h1 {
 	font-size: 4rem;
 	font-weight: 300;
@@ -59,6 +63,8 @@ b {
 .titleBlock {
 	width: min(calc($max-content-width - 400px), calc(100vw - 2rem));
 	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 @media (prefers-color-scheme: dark) {
