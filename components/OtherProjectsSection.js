@@ -32,7 +32,7 @@ const projects = [
 		img: '/bannerImg1.png',
 		items: [
 			'ReactJS, NextJS, and Sass',
-			'Docker container hosted on TBD',
+			'Static export hosted on Digital Ocean',
 		],
 	},
 	{

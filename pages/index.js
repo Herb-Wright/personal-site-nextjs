@@ -4,7 +4,6 @@ import { AiOutlineArrowDown } from 'react-icons/ai';
 import { Link } from 'react-scroll';
 import IAmSection from '../components/IAmSection';
 import ResumeSection from '../components/ResumeSection';
-import IconButton from '../components/IconButton';
 import FooterSection from '../components/FooterSection';
 
 const Home = () => {

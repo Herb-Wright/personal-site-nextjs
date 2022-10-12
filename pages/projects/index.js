@@ -1,5 +1,4 @@
 import Button from '../../components/Button';
-import Carousel from '../../components/Carousel';
 import FooterSection from '../../components/FooterSection';
 import Section from '../../components/Section';
 import { AiFillGithub } from 'react-icons/ai';

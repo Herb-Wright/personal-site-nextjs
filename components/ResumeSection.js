@@ -4,7 +4,6 @@ import Accordian from './Accordian';
 import styles from '../styles/modules/ResumeSection.module.scss';
 import ResponsiveDiv from './ResponsiveDiv';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 const ResumeItem = ({ title, subtitle, leftTop, leftBottom, bullets }) => (
@@ -129,7 +128,7 @@ const ResumeSection = () => {
 							'Hosted on Digital Ocean',
 						]}
 					/>
-					<Image
+					<img
 						src='/pettingzooscreenshot.png'
 						className={styles.inlineImg}
 						width={250}
@@ -143,7 +142,7 @@ const ResumeSection = () => {
 							'Spreadsheet Application that supports formulas, copying cells, and saving/loading from a file',
 						]}
 					/>
-					<Image
+					<img
 						src='/spreadsheetscreenshot.png'
 						className={styles.inlineImg}
 						width={250}
@@ -155,7 +154,7 @@ const ResumeSection = () => {
 						leftTop='JavaScript/SCSS'
 						bullets={[
 							'This website was created using ReactJS, NextJS, Sass, and other frameworks/libraries',
-							'Deployed in a Docker Container',
+							'Dockerfile lets it be run in a docker container',
 						]}
 					/>
 					<div className={styles.actionDiv}>
@@ -167,8 +166,8 @@ const ResumeSection = () => {
 					title='Skills'
 				>
 					<ul className={styles.resumeUl}>
-						<li>Proficient in <b>JavaScript</b>, have used React, NextJS, Express, Node, Prisma, styled-components, next-auth, and others</li>
-						<li>Proficient in <b>Python</b>, have used Pytorch, ROS, Numpy, Matplotlib, and others</li>
+						<li>Proficient in <b>JavaScript</b>, have used React, NextJS, Express, Jest, Node, Prisma, styled-components, next-auth, and others</li>
+						<li>Proficient in <b>Python</b>, have used Pytorch, ROS, Numpy, Matplotlib, Conda/Mamba, and others</li>
 						<li>Proficient in <b>Git</b>, have used Github and Gitlab</li>
 						<li>Proficient in <b>HTML/CSS</b>, have used Sass and Bootstrap</li>
 						<li>Familiar with <b>C#</b>, have used ASP.NET and Windows Forms</li>

@@ -1,26 +1,26 @@
 {
-  "name": "portfolio_site",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@fontsource/open-sans": "^4.5.11",
-    "framer-motion": "^7.4.0",
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.4.0",
-    "react-indiana-drag-scroll": "^2.2.0",
-    "react-scroll": "^1.8.7",
-    "sass": "^1.55.0"
-  },
-  "devDependencies": {
-    "eslint": "8.23.1",
-    "eslint-config-next": "12.3.1"
-  }
+	"name": "portfolio_site",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build && next export",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@fontsource/open-sans": "^4.5.11",
+		"framer-motion": "^7.4.0",
+		"next": "12.3.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-icons": "^4.4.0",
+		"react-indiana-drag-scroll": "^2.2.0",
+		"react-scroll": "^1.8.7",
+		"sass": "^1.55.0"
+	},
+	"devDependencies": {
+		"eslint": "8.23.1",
+		"eslint-config-next": "12.3.1"
+	}
 }

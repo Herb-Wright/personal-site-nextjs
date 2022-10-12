@@ -8,9 +8,11 @@ The website was made with the following stack:
 - React.js
 - Sass (for CSS)
 
-and hosted on mogenius
+and hosted on Digital ocean
 
 Dockerfile adapted from https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile
+
+The Dockerfile is not used in prod, as a static export is used.
 
 ------------
 

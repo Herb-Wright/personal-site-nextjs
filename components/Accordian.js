@@ -18,7 +18,7 @@ const Accordian = ({ children, links = [] }) => {
 			<div className={styles.desktopWrapper}>
 				<div className={styles.accordianLeft}>
 					{links.map(link => (
-						<Link to={link.toLowerCase()}>
+						<Link key={link} to={link.toLowerCase()}>
 							<Button variant='text'>{link}</Button>
 						</Link>
 					))}
