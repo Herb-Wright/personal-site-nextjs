@@ -64,19 +64,15 @@ const ResumeSection = () => {
 									<li>Algorithms and Data Structures</li>
 									<li>Foundations of Analysis I (Real Analysis)</li>
 									<li>Computer Organization and Architecture</li>
-								</ul>
-							</>),
-							(<>
-								Relevant Courses Completed:
-								<ul>
 									<li>Intro to Optimization (5000 Level)</li>
 									<li>Graduate Algorithms (5000 Level)</li>
 									<li>Deep Learning</li>
 									<li>Foundations of Data Analysis</li>
 								</ul>
 							</>),
-							'Relevant Course Currently Taking: Intro to Optimization, Algorithms (Graduate Level), Deep Learning',
+							'Relevant Course Currently Taking: Computer Vision, Machine Learning, Survey of Numerical Analysis',
 							'4.00 GPA in Math and Computer Science classes',
+							'Currently working on a research project with UROP funding in the ll4ma lab',
 						]}
 					/>
 					<ResumeItem
@@ -120,16 +116,16 @@ const ResumeSection = () => {
 					title='Projects'
 				>
 					<ResumeItem
-						title='VR Petting Zoo Website'
-						subtitle={<a href='https://bradandchadsvrpettingzoo.com'><u>https://bradandchadsvrpettingzoo.com</u></a>}
+						title='BertonGAN: a Style Transfer GAN Architecture'
+						subtitle={<a href='https://github.com/Herb-Wright/berton-gan'><u>https://github.com/Herb-Wright/berton-gan</u></a>}
 						leftTop='HTML/CSS'
 						bullets={[
-							'Used HTML and CSS to make a website for my friends',
-							'Hosted on Digital Ocean',
+							'A style-transfer GAN that also performs metric learning',
+							'Performed POC on MNIST datasets',
 						]}
 					/>
 					<img
-						src='/pettingzooscreenshot.png'
+						src='/bertongan.png'
 						className={styles.inlineImg}
 						width={250}
 						height={150}

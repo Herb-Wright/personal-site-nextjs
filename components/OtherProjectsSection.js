@@ -36,6 +36,15 @@ const projects = [
 		],
 	},
 	{
+		title: 'BertonGAN',
+		action: <GithubAction link='https://github.com/Herb-Wright/berton-gan' />,
+		img: '/bertongan.png',
+		items: [
+			'A style-transfer and metric learning GAN architecture',
+			'Worked as a partnership'
+		]
+	},
+	{
 		title: 'C# AVL Binary Tree',
 		action: <GithubAction link='https://github.com/Herb-Wright/avl-binary-tree' />,
 		img: '/avltree.png',
