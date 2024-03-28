@@ -47,7 +47,7 @@ const ResumeSection = () => {
 				>
 					<ResumeItem
 						title='University of Utah - School of Computing'
-						subtitle='3.94 GPA | B.S. in Computer Science, Minor in Math'
+						subtitle='3.92 GPA | B.S. in Computer Science, Minor in Math'
 						leftTop='Salt Lake City, UT'
 						leftBottom='Aug 2021 - May 2024'
 						bullets={[
@@ -56,23 +56,25 @@ const ResumeSection = () => {
 								Relevant Courses Completed:
 								<ul>
 									<li>Software Practice I &amp; II</li>
-									<li>Algorithms (4000 Level)</li>
 									<li>Engineering Probability and Statistics &amp; TA'd</li>
 									<li>Linear Algebra</li>
 									<li>Calculus I, II, &amp; III</li>
 									<li>Models of Computation</li>
-									<li>Algorithms and Data Structures</li>
 									<li>Foundations of Analysis I (Real Analysis)</li>
 									<li>Computer Organization and Architecture</li>
 									<li>Intro to Optimization (5000 Level)</li>
 									<li>Graduate Algorithms (5000 Level)</li>
 									<li>Deep Learning</li>
 									<li>Foundations of Data Analysis</li>
+									<li>Computer Systems</li>
+									<li>Survey of Numerical Analysis</li>
+									<li>Machine Learning (5000 Level)</li>
+									<li>Computer Vision (5000 Level)</li>
+									<li>Algorithmic Foundations of Robotics</li>
 								</ul>
 							</>),
-							'Relevant Course Currently Taking: Computer Vision, Machine Learning, Survey of Numerical Analysis',
-							'4.00 GPA in Math and Computer Science classes',
-							'Currently working on a research project with UROP funding in the ll4ma lab',
+							'Relevant courses currently taking: Advanced Optimization (Grad Level), Algorithms Geometry and Optimization (Grad Level)',
+							'Submitted a robotics research paper funded by UROP',
 						]}
 					/>
 					<ResumeItem
@@ -96,7 +98,8 @@ const ResumeSection = () => {
 						leftTop='American Fork, UT'
 						leftBottom='May 2022 - Now'
 						bullets={[
-							'Used JavaScript, ReactJS, NextJS, as well as other frameworks in a corporate setting',
+							'Used JavaScript, ReactJS, NextJS, as well as others on the frontend',
+							'Used Java, Spring Boot, Liquibase, Docker, as well as others on the backend',
 							'Learned how to develop enterprise software on a team in an agile environment',
 							'Used tools such as GitLab, Jira, Figma, Postman, and others',
 						]}
@@ -116,16 +119,16 @@ const ResumeSection = () => {
 					title='Projects'
 				>
 					<ResumeItem
-						title='BertonGAN: a Style Transfer GAN Architecture'
-						subtitle={<a href='https://github.com/Herb-Wright/berton-gan'><u>https://github.com/Herb-Wright/berton-gan</u></a>}
-						leftTop='HTML/CSS'
+						title='V-PRISM Paper'
+						subtitle={<a href='https://arxiv.org/abs/2403.08106'><u>https://arxiv.org/abs/2403.08106</u></a>}
+						leftTop='Latex, Python/Pytorch'
 						bullets={[
 							'A style-transfer GAN that also performs metric learning',
 							'Performed POC on MNIST datasets',
 						]}
 					/>
 					<img
-						src='/bertongan.png'
+						src='/vprism_img.png'
 						className={styles.inlineImg}
 						width={250}
 						height={150}
@@ -168,7 +171,8 @@ const ResumeSection = () => {
 						<li>Proficient in <b>HTML/CSS</b>, have used Sass and Bootstrap</li>
 						<li>Familiar with <b>C#</b>, have used ASP.NET and Windows Forms</li>
 						<li>Familiar with <b>C/C++</b>, have used Qt</li>
-						<li>Other technology I've used: Java, <b>Docker</b>, Linux, <b>SQL</b>, MongoDB, ROS, Figma, Jira, and others</li>
+						<li>Familiar with <b>Java</b>, have used Spring Boot</li>
+						<li>Other technology I've used: <b>Docker</b>, Linux, <b>SQL</b>, MongoDB, ROS, Figma, Jira, Latex, and others</li>
 					</ul>
 				</Accordian.item>
 			</Accordian>

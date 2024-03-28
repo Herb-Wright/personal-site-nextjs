@@ -12,23 +12,9 @@ const AboutPage = ({ }) => {
 		<Section img='/utah.jpg'>
 			<h1>College</h1>
 			<ul>
-				<li>I study Computer Science and Mathematics at the University of Utah.</li>
-				<li>My expected graduation date is May 2024.</li>
-			</ul>
-		</Section>
-		<Section bg='secondary' img='/redrock.png' dir='right'>
-			<h1>Hobbies</h1>
-			<ul>
-				<li>I enjoy hiking and canyoneering in southern Utah.</li>
-				<li>I enjoy skiing</li>
-				<li>I enjoy learning new things</li>
-			</ul>
-		</Section>
-		<Section img='/football.jpg'>
-			<h1>High School and Before</h1>
-			<ul>
-				<li>I played multiple sports growing up, including football, baseball, and track.</li>
-				<li>I learned to love math and computers at an early age</li>
+				<li>I am studying for a Bachelors in Computer Science with a minor Mathematics at the University of Utah.</li>
+				<li>My expected graduation date is December 2024.</li>
+				<li>Multiple year participant in the Rocky Mountain region ICPC competition</li>
 			</ul>
 		</Section>
 		<FooterSection />

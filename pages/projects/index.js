@@ -2,7 +2,7 @@ import Button from '../../components/Button';
 import FooterSection from '../../components/FooterSection';
 import Section from '../../components/Section';
 import { AiFillGithub } from 'react-icons/ai';
-import { CgWebsite } from 'react-icons/cg'
+import { SiArxiv } from "react-icons/si";
 import OtherProjectsSection from '../../components/OtherProjectsSection';
 
 const ProjectsPage = ({ }) => {
@@ -15,15 +15,16 @@ const ProjectsPage = ({ }) => {
 				</a>
 			</div>
 		</Section>
-		<Section img='/pettingzooscreenshot.png'>
+		<Section img='/vprism_img.png'>
 			<div>
-				<h1>Petting Zoo Website</h1>
-				<a href='https://bradandchadsvrpettingzoo.com/'>
-					<Button><CgWebsite />View Website</Button>
+				<h1>V-PRISM</h1>
+				<a href='https://arxiv.org/abs/2403.08106'>
+					<Button><SiArxiv />View Arxiv</Button>
 				</a>
 				<ul>
-					<li>HTML/CSS</li>
-					<li>Created a website for my friends</li>
+					<li>Robotics research paper</li>
+					<li>A method for probabilistically mapping unkown tabletop scenes</li>
+					<li>Pytorch</li>
 				</ul>
 			</div>
 		</Section>

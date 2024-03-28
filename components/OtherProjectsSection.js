@@ -32,12 +32,30 @@ const projects = [
 		img: '/bannerImg1.png',
 		items: [
 			'ReactJS, NextJS, and Sass',
-			'Static export hosted on Digital Ocean',
+			'Static export hosted on Github Pages',
 		],
 	},
 	{
+		'title': 'Simple Autodiff',
+		'action': <GithubAction link='https://github.com/Herb-Wright/simple-autodiff'/>,
+		'img': '/autodiffimg.png',
+		'items': [
+			'Python implementation of automatic differentiation algorithm',
+			'Supports multiple Numpy ops'
+		]
+	},
+	// {
+	// 	title: 'Spreadsheet App',
+	// 	action: <GithubAction link='https://github.com/Herb-Wright/spreadsheet-application'/>,
+	// 	img: 'spreadsheetscreenshot.png',
+	// 	items: [
+	// 		'C#',
+	// 		'Supports copying cells, formulas, saving/loading'
+	// 	]
+	// },
+	{
 		title: 'BertonGAN',
-		action: <GithubAction link='https://github.com/Herb-Wright/berton-gan' />,
+		action: <GithubAction link='https://github.com/Herb-Wright/berton-gan/tree/herb_draft' />,
 		img: '/bertongan.png',
 		items: [
 			'A style-transfer and metric learning GAN architecture',
@@ -60,24 +78,24 @@ const projects = [
 			'Python game where you run away from red squares',
 		],
 	},
-	{
-		title: 'Joke Wars Website',
-		action: <GithubAction link='https://github.com/Herb-Wright/joke-wars-website' />,
-		img: '/jokewars.png',
-		items: [
-			'ReactJS, ExpressJS, MongoDB',
-			'Website where you make and rank jokes'
-		],
-	},
-	{
-		title: 'ML Essay',
-		action: <GithubAction link='https://github.com/Herb-Wright/school-essay' />,
-		img: '/essay.png',
-		items: [
-			'LaTeX, Python, Markdown',
-			'On Bayesian optimization for choosing hyperparameters',
-		],
-	},
+	// {
+	// 	title: 'Joke Wars Website',
+	// 	action: <GithubAction link='https://github.com/Herb-Wright/joke-wars-website' />,
+	// 	img: '/jokewars.png',
+	// 	items: [
+	// 		'ReactJS, ExpressJS, MongoDB',
+	// 		'Website where you make and rank jokes'
+	// 	],
+	// },
+	// {
+	// 	title: 'ML Essay',
+	// 	action: <GithubAction link='https://github.com/Herb-Wright/school-essay' />,
+	// 	img: '/essay.png',
+	// 	items: [
+	// 		'LaTeX, Python, Markdown',
+	// 		'On Bayesian optimization for choosing hyperparameters',
+	// 	],
+	// },
 ]
 
 
