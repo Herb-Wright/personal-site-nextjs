@@ -1,6 +1,5 @@
 import styles from '../styles/modules/Carousel.module.scss';
 import ScrollContainer from 'react-indiana-drag-scroll'
-import { useState } from 'react';
 import ResponsiveDiv from './ResponsiveDiv';
 
 const Carousel = ({ children, items }) => {

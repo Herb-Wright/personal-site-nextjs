@@ -49,7 +49,7 @@ const ResumeSection = () => {
 						title='University of Utah - School of Computing'
 						subtitle='3.92 GPA | B.S. in Computer Science, Minor in Math'
 						leftTop='Salt Lake City, UT'
-						leftBottom='Aug 2021 - May 2024'
+						leftBottom='Aug 2021 - Dec 2024'
 						bullets={[
 							<>2x <i>College of Engineering Deans List</i></>,
 							(<>
@@ -77,21 +77,21 @@ const ResumeSection = () => {
 							'Submitted a robotics research paper funded by UROP',
 						]}
 					/>
-					<ResumeItem
-						title='Maple Mountain High School'
-						subtitle='3.92 GPA | 32 ACT'
-						leftTop='Spanish Fork, UT'
-						leftBottom='Sept 2016 - May 2019'
-						bullets={[
-							'Mathematics Sterling Scholar',
-							<><i>5A Academic All-State</i> in Football and Track</>,
-							<><i>Eagle Scout</i>, Boy Scouts of America</>,
-						]}
-					/>
 				</Accordian.item>
 				<Accordian.item
 					title='Experience'
 				>
+					<ResumeItem
+						title='University of Utah - LL4MA Lab'
+						subtitle='Undergraduate Researcher'
+						leftTop='Salt Lake City, UT'
+						leftBottom='Aug 2022 - Now'
+						bullets={[
+							'2x Recipient of UROP stipend',
+							'Submitted a contribution paper to major robotics conference',
+							'Worked on tabletop scene perception for robotic manipulation',
+						]}
+					/>
 					<ResumeItem
 						title='Henry Schein One'
 						subtitle='Software Engineering Intern'
@@ -120,11 +120,17 @@ const ResumeSection = () => {
 				>
 					<ResumeItem
 						title='V-PRISM Paper'
-						subtitle={<a href='https://arxiv.org/abs/2403.08106'><u>https://arxiv.org/abs/2403.08106</u></a>}
+						subtitle={<>
+							<a href='https://arxiv.org/abs/2403.08106'>
+								<u>https://arxiv.org/abs/2403.08106</u>
+							</a> | <a href='https://herb-wright.github.io/v-prism/'>
+								<u>https://herb-wright.github.io/v-prism/</u>
+							</a>
+						</>}
 						leftTop='Latex, Python/Pytorch'
 						bullets={[
-							'A style-transfer GAN that also performs metric learning',
-							'Performed POC on MNIST datasets',
+							'A robotics research paper about mapping unknown tabletop scenes',
+							'Bayesian method that uses an EM Algorithm',
 						]}
 					/>
 					<img
@@ -165,7 +171,7 @@ const ResumeSection = () => {
 					title='Skills'
 				>
 					<ul className={styles.resumeUl}>
-						<li>Proficient in <b>JavaScript</b>, have used React, NextJS, Express, Jest, Node, Prisma, styled-components, next-auth, and others</li>
+						<li>Proficient in <b>JavaScript</b>, have used React, NextJS, Express, Jest, Node, Prisma, styled-components, next-auth, Astro, and others</li>
 						<li>Proficient in <b>Python</b>, have used Pytorch, ROS, Numpy, Matplotlib, Conda/Mamba, and others</li>
 						<li>Proficient in <b>Git</b>, have used Github and Gitlab</li>
 						<li>Proficient in <b>HTML/CSS</b>, have used Sass and Bootstrap</li>

@@ -3,6 +3,7 @@ import FooterSection from '../../components/FooterSection';
 import Section from '../../components/Section';
 import { AiFillGithub } from 'react-icons/ai';
 import { SiArxiv } from "react-icons/si";
+import { MdWeb } from "react-icons/md";
 import OtherProjectsSection from '../../components/OtherProjectsSection';
 
 const ProjectsPage = ({ }) => {
@@ -18,9 +19,14 @@ const ProjectsPage = ({ }) => {
 		<Section img='/vprism_img.png'>
 			<div>
 				<h1>V-PRISM</h1>
-				<a href='https://arxiv.org/abs/2403.08106'>
-					<Button><SiArxiv />View Arxiv</Button>
-				</a>
+				<div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
+					<a href='https://arxiv.org/abs/2403.08106'>
+						<Button><SiArxiv />View Arxiv</Button>
+					</a>
+					<a href='https://herb-wright.github.io/v-prism/'>
+						<Button><MdWeb />View Website</Button>
+					</a>
+				</div>
 				<ul>
 					<li>Robotics research paper</li>
 					<li>A method for probabilistically mapping unkown tabletop scenes</li>

@@ -5,8 +5,8 @@ import styles from '../styles/modules/IAmSection.module.scss';
 const items = [
 	'⚛️ React',
 	'🌐 Fullstack',
-	'🤖 Machine Learning',
-	'🎨 UI/UX Design',
+	'🤖 Robotic Perception',
+	'📈 Machine Learning',
 	'🖥️ Computer Science',
 	'📏 Mathematics',
 ];
